@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF6403A5283C15B800D20EA8 /* transolisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6403A4283C15B800D20EA8 /* transolisApp.swift */; };
+		AF6403A7283C15B800D20EA8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6403A6283C15B800D20EA8 /* ContentView.swift */; };
+		AF6403A9283C15C300D20EA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF6403A8283C15C300D20EA8 /* Assets.xcassets */; };
+		AF6403AC283C15C300D20EA8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF6403AB283C15C300D20EA8 /* Preview Assets.xcassets */; };
+		AF6403B6283C15C400D20EA8 /* transolisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6403B5283C15C400D20EA8 /* transolisTests.swift */; };
+		AF6403C0283C15C400D20EA8 /* transolisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6403BF283C15C400D20EA8 /* transolisUITests.swift */; };
+		AF6403C2283C15C400D20EA8 /* transolisUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6403C1283C15C400D20EA8 /* transolisUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF6403B2283C15C400D20EA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF640399283C15B800D20EA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF6403A0283C15B800D20EA8;
+			remoteInfo = transolis;
+		};
+		AF6403BC283C15C400D20EA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF640399283C15B800D20EA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF6403A0283C15B800D20EA8;
+			remoteInfo = transolis;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF6403A1283C15B800D20EA8 /* transolis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = transolis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF6403A4283C15B800D20EA8 /* transolisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = transolisApp.swift; sourceTree = "<group>"; };
+		AF6403A6283C15B800D20EA8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AF6403A8283C15C300D20EA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF6403AB283C15C300D20EA8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AF6403B1283C15C400D20EA8 /* transolisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = transolisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF6403B5283C15C400D20EA8 /* transolisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = transolisTests.swift; sourceTree = "<group>"; };
+		AF6403BB283C15C400D20EA8 /* transolisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = transolisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF6403BF283C15C400D20EA8 /* transolisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = transolisUITests.swift; sourceTree = "<group>"; };
+		AF6403C1283C15C400D20EA8 /* transolisUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = transolisUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF64039E283C15B800D20EA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6403AE283C15C400D20EA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6403B8283C15C400D20EA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF640398283C15B800D20EA8 = {
+			isa = PBXGroup;
+			children = (
+				AF6403A3283C15B800D20EA8 /* transolis */,
+				AF6403B4283C15C400D20EA8 /* transolisTests */,
+				AF6403BE283C15C400D20EA8 /* transolisUITests */,
+				AF6403A2283C15B800D20EA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF6403A2283C15B800D20EA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF6403A1283C15B800D20EA8 /* transolis.app */,
+				AF6403B1283C15C400D20EA8 /* transolisTests.xctest */,
+				AF6403BB283C15C400D20EA8 /* transolisUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF6403A3283C15B800D20EA8 /* transolis */ = {
+			isa = PBXGroup;
+			children = (
+				AF6403A4283C15B800D20EA8 /* transolisApp.swift */,
+				AF6403A6283C15B800D20EA8 /* ContentView.swift */,
+				AF6403A8283C15C300D20EA8 /* Assets.xcassets */,
+				AF6403AA283C15C300D20EA8 /* Preview Content */,
+			);
+			path = transolis;
+			sourceTree = "<group>";
+		};
+		AF6403AA283C15C300D20EA8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AF6403AB283C15C300D20EA8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AF6403B4283C15C400D20EA8 /* transolisTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF6403B5283C15C400D20EA8 /* transolisTests.swift */,
+			);
+			path = transolisTests;
+			sourceTree = "<group>";
+		};
+		AF6403BE283C15C400D20EA8 /* transolisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF6403BF283C15C400D20EA8 /* transolisUITests.swift */,
+				AF6403C1283C15C400D20EA8 /* transolisUITestsLaunchTests.swift */,
+			);
+			path = transolisUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF6403A0283C15B800D20EA8 /* transolis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF6403C5283C15C400D20EA8 /* Build configuration list for PBXNativeTarget "transolis" */;
+			buildPhases = (
+				AF64039D283C15B800D20EA8 /* Sources */,
+				AF64039E283C15B800D20EA8 /* Frameworks */,
+				AF64039F283C15B800D20EA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = transolis;
+			productName = transolis;
+			productReference = AF6403A1283C15B800D20EA8 /* transolis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF6403B0283C15C400D20EA8 /* transolisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF6403C8283C15C400D20EA8 /* Build configuration list for PBXNativeTarget "transolisTests" */;
+			buildPhases = (
+				AF6403AD283C15C400D20EA8 /* Sources */,
+				AF6403AE283C15C400D20EA8 /* Frameworks */,
+				AF6403AF283C15C400D20EA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF6403B3283C15C400D20EA8 /* PBXTargetDependency */,
+			);
+			name = transolisTests;
+			productName = transolisTests;
+			productReference = AF6403B1283C15C400D20EA8 /* transolisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF6403BA283C15C400D20EA8 /* transolisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF6403CB283C15C400D20EA8 /* Build configuration list for PBXNativeTarget "transolisUITests" */;
+			buildPhases = (
+				AF6403B7283C15C400D20EA8 /* Sources */,
+				AF6403B8283C15C400D20EA8 /* Frameworks */,
+				AF6403B9283C15C400D20EA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF6403BD283C15C400D20EA8 /* PBXTargetDependency */,
+			);
+			name = transolisUITests;
+			productName = transolisUITests;
+			productReference = AF6403BB283C15C400D20EA8 /* transolisUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF640399283C15B800D20EA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					AF6403A0283C15B800D20EA8 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					AF6403B0283C15C400D20EA8 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = AF6403A0283C15B800D20EA8;
+					};
+					AF6403BA283C15C400D20EA8 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = AF6403A0283C15B800D20EA8;
+					};
+				};
+			};
+			buildConfigurationList = AF64039C283C15B800D20EA8 /* Build configuration list for PBXProject "transolis" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF640398283C15B800D20EA8;
+			productRefGroup = AF6403A2283C15B800D20EA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF6403A0283C15B800D20EA8 /* transolis */,
+				AF6403B0283C15C400D20EA8 /* transolisTests */,
+				AF6403BA283C15C400D20EA8 /* transolisUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF64039F283C15B800D20EA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF6403AC283C15C300D20EA8 /* Preview Assets.xcassets in Resources */,
+				AF6403A9283C15C300D20EA8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6403AF283C15C400D20EA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6403B9283C15C400D20EA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF64039D283C15B800D20EA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF6403A7283C15B800D20EA8 /* ContentView.swift in Sources */,
+				AF6403A5283C15B800D20EA8 /* transolisApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6403AD283C15C400D20EA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF6403B6283C15C400D20EA8 /* transolisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6403B7283C15C400D20EA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF6403C2283C15C400D20EA8 /* transolisUITestsLaunchTests.swift in Sources */,
+				AF6403C0283C15C400D20EA8 /* transolisUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF6403B3283C15C400D20EA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF6403A0283C15B800D20EA8 /* transolis */;
+			targetProxy = AF6403B2283C15C400D20EA8 /* PBXContainerItemProxy */;
+		};
+		AF6403BD283C15C400D20EA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF6403A0283C15B800D20EA8 /* transolis */;
+			targetProxy = AF6403BC283C15C400D20EA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AF6403C3283C15C400D20EA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF6403C4283C15C400D20EA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF6403C6283C15C400D20EA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"transolis/Preview Content\"";
+				DEVELOPMENT_TEAM = U5UX6SCGAJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ascari.transolis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF6403C7283C15C400D20EA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"transolis/Preview Content\"";
+				DEVELOPMENT_TEAM = U5UX6SCGAJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ascari.transolis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF6403C9283C15C400D20EA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U5UX6SCGAJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ascari.transolisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/transolis.app/transolis";
+			};
+			name = Debug;
+		};
+		AF6403CA283C15C400D20EA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U5UX6SCGAJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ascari.transolisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/transolis.app/transolis";
+			};
+			name = Release;
+		};
+		AF6403CC283C15C400D20EA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U5UX6SCGAJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ascari.transolisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = transolis;
+			};
+			name = Debug;
+		};
+		AF6403CD283C15C400D20EA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U5UX6SCGAJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ascari.transolisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = transolis;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF64039C283C15B800D20EA8 /* Build configuration list for PBXProject "transolis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF6403C3283C15C400D20EA8 /* Debug */,
+				AF6403C4283C15C400D20EA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF6403C5283C15C400D20EA8 /* Build configuration list for PBXNativeTarget "transolis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF6403C6283C15C400D20EA8 /* Debug */,
+				AF6403C7283C15C400D20EA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF6403C8283C15C400D20EA8 /* Build configuration list for PBXNativeTarget "transolisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF6403C9283C15C400D20EA8 /* Debug */,
+				AF6403CA283C15C400D20EA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF6403CB283C15C400D20EA8 /* Build configuration list for PBXNativeTarget "transolisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF6403CC283C15C400D20EA8 /* Debug */,
+				AF6403CD283C15C400D20EA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF640399283C15B800D20EA8 /* Project object */;
+}
