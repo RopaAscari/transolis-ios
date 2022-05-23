@@ -1,10 +1,3 @@
-//
-//  transolisTests.swift
-//  transolisTests
-//
-//  Created by CHRISTOPHER BEDWARD on 5/23/22.
-//
-
 import XCTest
 @testable import transolis
 

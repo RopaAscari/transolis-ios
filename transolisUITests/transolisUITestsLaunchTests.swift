@@ -1,10 +1,3 @@
-//
-//  transolisUITestsLaunchTests.swift
-//  transolisUITests
-//
-//  Created by CHRISTOPHER BEDWARD on 5/23/22.
-//
-
 import XCTest
 
 class transolisUITestsLaunchTests: XCTestCase {
